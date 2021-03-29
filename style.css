@@ -33,6 +33,10 @@ body{
     display:inline-block;
     width:100%;
 }
+.sform{
+    display:inline-block;
+    margin-top:20px;
+}
 .heading{
     margin:0px;
     width:100;
@@ -52,6 +56,28 @@ body{
     background-size: 200% auto;
     box-shadow: 0 0 20px rgba(0, 0, 0, .1);
     transition: .5s;
+}
+.contbutton{
+        height:100px;
+        width:100px;
+        background-size:100px 100px;
+	cursor: pointer;
+}
+#vk{
+	background:url(https://free-png.ru/wp-content/uploads/2020/04/VK_Blue_Logo_t.png);
+	background-size:100px 100px;
+}
+#telegram{
+	background:url(https://i.pinimg.com/originals/65/5f/c9/655fc95d7384ca82b4ac0922df3e2249.png);
+	background-size:100px 100px;
+}
+#instagram{
+	background:url(https://tvtmarina.ru/wp-content/uploads/2020/04/computer-icons-instagram-logo-sticker-logo.jpg);
+	background-size:100px 100px;
+}
+.contform{
+    display: inline-block;
+    margin:20px;
 }
 
 button:hover {
